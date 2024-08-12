@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "kowoperg" {
-  name     = "kowope -rg"
+  name     = "kowoperg"
   location = "West Europe"
 }
 
