@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "kowoperg" {
   name     = "kowoperg"
-  location = "West Europe"
+  location = "westus"
 }
 
 resource "azurerm_storage_account" "kowopesta" {
