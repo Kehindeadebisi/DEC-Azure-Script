@@ -37,13 +37,14 @@ A fintech organization, is on a mission to decentralize financial services globa
 The project involves the following steps:
 
 1. **Set Up Azure Resources**: 
+   - Use Azure CLI to:
    - Create a resource group.
    - Create a storage account with hierarchical namespace enabled.
    - Create a file system (container) in the storage account.
 
 2. **Upload Files**: 
-   - Use Azure CLI to upload local files to the Azure Data Lake Storage Gen2.
+    - Use Python to  upload files to the Azure Data Lake Storage Gen2.
 
 3. **Tools Used**:
    - Azure CLI
-   - Python (for further data processing)
+   - Python
