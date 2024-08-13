@@ -3,7 +3,7 @@ from azure.identity import DefaultAzureCredential
 from azure.storage.filedatalake import DataLakeServiceClient, FileSystemClient
 
 storage_account_name = "kowopesta"
-local_path = "/Users/mac/AZDEC/script" 
+local_path = "/Users/mac/AZDEC/scripts" 
 file_name = "kowope-daily-reports.csv"
 
 def get_service_client(account_name: str) -> DataLakeServiceClient:
